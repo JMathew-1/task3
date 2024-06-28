@@ -116,12 +116,12 @@ export default function Component() {
                   {/* Div with flexbox properties for row layout and gap between items */}
                   <SignalIcon className="h-8 w-8 text-blue-500" />
                   {/* Signal icon with specific height, width, and color */}
-                  <h3 className="text-xl font-bold text-gray-900 dark:text-gray-50">Reminders</h3>
+                  <h3 className="text-xl font-bold text-gray-900 dark:text-gray-50">Calendar</h3>
                   {/* Heading element with text size, font weight, and color that changes in dark mode */}
                 </div>
                 <p className="mt-2 text-gray-500 dark:text-gray-400">
                   {/* Paragraph element with margin-top, text color, and color that changes in dark mode */}
-                  Get timely reminders to ensure you never miss a deadline or important task.
+                  Use our Calendar to ensure you never miss a deadline or important task.
                 </p>
               </div>
               <div className="bg-gray-100 p-6 rounded-lg shadow-md dark:bg-gray-800">
