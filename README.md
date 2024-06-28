@@ -13,12 +13,16 @@ To deploy the project, download the zip file and extract it. Then open the extra
 Make sure that on the left where the files are, the folders and files that should show should only be the public, src and the other files. Make sure there isn't another task3 folder within the folder as this will ruin the deployment process. The only folders that should be shown on the left of VS codeare the public 
 folder and the src folder. 
 
-Once the folder is open, open up the terminal and type the command:
+Once the folder is open, open up the terminal by pressing the 3 dots button on the top and type the command:
 
 npm i 
 
-to install all the relevant dependancies, once this is done type 
+to install all the relevant dependancies, once this is done type:
 
 npm run dev 
 
 to deploy the project, this will generate a link in the terminal which the user can press to open up the project in their browser. 
+To stop the deployment press control + C  while in the terminal to close the deployment. 
+To once again deploy the app, type the command:
+
+npm run dev 
