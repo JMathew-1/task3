@@ -1,28 +1,48 @@
-The app is a task scheduling App that allows students to manage their tasks and their time
+**Task Scheduling App for Students**
 
-The user can navigate to the dashboard to see some basic stats of their projects and events
+**Introduction:**
+This app helps students manage tasks and organize their time efficiently.
 
-The user can then go to the different pages, such as the projects, calender and notes pages to use ther functionalities in those pages. 
+Features:
 
-The user can also use the help page if they are stuck on using the app.
+Dashboard: View basic statistics of projects and events.
+Projects Page: Manage ongoing projects and track progress.
+Calendar Page: Schedule events and manage deadlines.
+Notes Page: Take and organize notes related to tasks.
+Help Page: Get assistance if you encounter issues using the app.
 
 
-**Deploying the APP**
+**Deploying the App**
+Prerequisites:
 
-To deploy the project, download the zip file and extract it. Then open the extracted folder into VS code 
-Make sure that on the left where the files are, the folders and files that should show should only be the public, src and the other files. Make sure there isn't another task3 folder within the folder as this will ruin the deployment process. The only folders that should be shown on the left of VS codeare the public 
-folder and the src folder. 
+Ensure Node.js and npm are installed on your machine.
 
-Once the folder is open, open up the terminal by pressing the 3 dots button on the top and type the command:
+**Steps:**
 
-npm i 
+**Download and Setup:**
 
-to install all the relevant dependancies, once this is done type:
+Download and extract the zip file.
+Open the extracted folder in VS Code.
+Make sure that on the left there isnt a second task3 folder that you have to click on to see the rest of the folders, the only folders that should be on the left of VS code should be the public and Src folder 
 
-npm run dev 
+**Install Dependencies:**
 
-to deploy the project, this will generate a link in the terminal which the user can press to open up the project in their browser. 
-To stop the deployment press control + C  while in the terminal to close the deployment. 
-To once again deploy the app, type the command:
+Open the terminal in VS Code by pressing the 3 dots button at the top of VS code
+Run ' npm i ' to install necessary dependencies.
 
-npm run dev 
+**Start the App:**
+
+After installation, type ' npm run dev ' in the terminal.
+This will generate a link in the terminal.
+Make sure a browser is open.
+Click the link to open the app in your browser.
+
+**Stopping Deployment:**
+
+To stop the deployment, press Ctrl + C in the terminal.
+
+**Re-deploying:**
+
+To deploy the app again, repeat step 3.
+
+
