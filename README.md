@@ -3,6 +3,11 @@
 **Introduction:**
 This app helps students manage tasks and organize their time efficiently.
 
+The app was built using Next JS, Tailwind CSS (for the styling) and ShadCn Ui which is a UI librarby where you can get pre-made compeonets and use them in your app. The Shadcn componenets are located in the 
+the ui folder within the components folder that is located in the app folder. All the jsx files within that UI folder was imported from Shadcn UI.
+
+The code for the entire app is located inside the src folder. The app folder which is inside the src folder has the code for all the different pages such as the the projecs page, the calender page, the notes page and the dashboard. The Components folder has the individuals sections of the app such as the buttons or navbar which can be used in the pages within the app folder, most of these components are from Shadcn UI. 
+
 Features:
 
 Dashboard: View basic statistics of projects and events.
